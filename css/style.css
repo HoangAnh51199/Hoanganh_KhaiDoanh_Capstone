@@ -95,3 +95,83 @@ header {
     object-fit: cover;
     overflow: hidden;
 }
+
+.footer-main .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.footer-main h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.footer-main a.logo {
+    font-size: 32px;
+    color: orangered;
+    cursor: pointer;
+    position: relative;
+    
+}
+.footer-main a.logo:hover {
+    color:black;
+    text-decoration: none;
+}
+.footer-main a.logo i{
+    position:absolute;
+    top: -3px;
+    left: 54px;
+    font-size: 20px;
+}
+
+.footer-main p {
+    font-size: 17px;
+    line-height: 27px;
+    color:#707070;
+}
+.FooterSocial li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 15px;
+    line-height: 35px;
+
+}
+.FooterSocial li a {
+    color: green;
+    width: 35px;
+    height: 35px;
+    background: rgb(10 191 83 / 8%);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.FooterSocial li a 
+
+/* cdtop */
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.backToTop {
+    width: 45px;
+    height: 45px;
+    background: #009f4d;
+    border-radius: 8px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    color: white;
+    transition: all 0.2s;
+    box-shadow: -4px 4px 24px -10px #009f4d;
+    visibility: hidden;
+    opacity: 0;
+}
