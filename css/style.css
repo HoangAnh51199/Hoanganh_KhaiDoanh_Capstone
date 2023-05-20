@@ -90,8 +90,26 @@ header {
 .carousel-inner {
     border-radius: 0 0 0 15px;
 }
+.welcome__left, .welcome__right{
+    width: 50%;
+}
 .welcome__right img {
-    min-height: 100vh;
+    height: 100vh;
+    width: 100%;
     object-fit: cover;
     overflow: hidden;
+}
+.carousel-item span{
+    font-weight: 600;
+    font-size: 30px;
+}
+.carousel-caption {
+    left: unset;
+    right: 15px;
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
 }
