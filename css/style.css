@@ -177,11 +177,11 @@ header {
 }
 
 .backToTop {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     background: #009f4d;
     border-radius: 8px;
-    line-height: 40px;
+    line-height: 50px;
     text-align: center;
     display: block;
     position: fixed;
@@ -192,8 +192,4 @@ header {
     box-shadow: -4px 4px 24px -10px #009f4d;
     visibility: hidden;
     opacity: 0;
-    
-}
-.backToTop i{
-    font-size: smaller;
 }
