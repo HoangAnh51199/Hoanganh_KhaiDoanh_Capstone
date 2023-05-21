@@ -6,12 +6,26 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.btn-more {
+    background:#fb811e;
+    margin: 10px 0;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;   
+    background-size: 200%;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    border:none;
+    font-size: 16px;
+}
 /* HEADER */
 header {
-  background-color: transparent;
-  position: absolute;
-  width: 100%;
-  z-index: 10;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 .navbar-brand:hover {
   color: black !important;
@@ -38,18 +52,26 @@ header {
   cursor: auto;
   padding-right: 15px;
 }
-.navbar-dark .navbar-brand {
-  text-decoration: none;
-  font-size: 32px;
-  padding: 0px;
-  position: relative;
-  color: #fb811e;
+.navbar{
+    padding: 5px 1rem 0;
+}
+.navbar-dark .navbar-brand{
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px;
+    position: relative;
+    color: #fb811e;
 }
 .navbar-dark .navbar-brand i {
   position: absolute;
   top: -5px;
   left: 50px;
   font-size: 20px;
+}
+#toggleBtn {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
 }
 .dropdown {
   appearance: none !important;
@@ -78,11 +100,15 @@ header {
 .no-caret::after {
   display: none !important;
 }
+.headerScroll{
+    background-color: white;
+}
 /* welcome */
-.welcome__content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.welcome__content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
 }
 .container-fluid {
   padding: 0;
@@ -90,9 +116,16 @@ header {
 .carousel-inner {
   border-radius: 0 0 0 15px;
 }
-.welcome__left,
-.welcome__right {
-  width: 50%;
+.welcome__right{
+    width: 60%;
+    position: relative;
+    margin-left: auto !important;
+}
+.welcome__left{
+    width: 40%;
+    left: 10em;
+    z-index: 1;
+    position: absolute;
 }
 .welcome__right img {
   height: 100vh;
@@ -114,7 +147,36 @@ header {
   height: 10px;
   margin-left: 10px;
 }
-
+.welcome__left h2{
+    color: grey;
+    opacity: 0.1;
+    font-size: 120px;
+    font-weight: bold;
+    margin-left: -0.5em;
+    line-height: 0;
+}
+.welcome__text h3{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.welcome__text p{
+    font-size: 18px;
+    color: grey;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-layout {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+/* footer */
 .footer-main .row {
   display: flex;
   flex-wrap: wrap;

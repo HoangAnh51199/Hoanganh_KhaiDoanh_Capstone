@@ -30,11 +30,11 @@
   <title>Document</title>
 </head>
 
-<body>
-  <header>
+<body id="body">
+  <header id="header">
     <div class="header__content container m-auto">
       <nav class="navbar justify-content-between navbar-expand-md navbar-dark text-black">
-        <a class="navbar-brand" href="#">
+        <a id="logo" class="navbar-brand" href="#">
           <span>Farmstead</span><i class="fa-solid fa-leaf"></i></a>
         <div class="navbar">
           <div class="search">
@@ -42,8 +42,12 @@
               <input type="search" placeholder="Search" />
             </form>
           </div>
+          <div>
+            <i id="toggleBtn" class="fa-regular fa-sun"></i>
+          </div>
           <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle text-white no-caret" type="button" data-toggle="dropdown">
+            <button id="dropDown" class="btn btn-default dropdown-toggle text-white no-caret" type="button"
+              data-toggle="dropdown">
               <i class="fa-solid fa-bars"></i> <span class="caret"></span>
             </button>
             <ul class="dropdown-menu text-center">
@@ -63,46 +67,85 @@
   </header>
   <section class="welcome">
     <div class="container-fluid welcome__content">
-    <div class="text-center welcome__left">
-      <h2>Farm</h2>
-      <p>Welcome to Farmstead <br>
-        where Natural Food is <br>  born!</p>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-      <button>LEARN MORE</button>
-    </div>
-    <div id="carouselId" class="carousel slide welcome__right" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselId" data-slide-to="1"></li>
-        <li data-target="#carouselId" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <img src="./images/b1.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3><span>01</span>/03</h3>
-            <p>Agriculuture</p>
+      <div class="text-left welcome__left">
+        <div class="welcome__inner">
+          <h2>Farm</h2>
+          <div class="welcome__text">
+            <h3>Welcome to Farmstead <br>
+              where Natural Food is <br> born!</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <button class="btn-more">LEARN MORE</button>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="./images/b8.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3><span>02</span>/03</h3>
-            <p>Farm Field</p>
+      </div>
+      <div id="carouselId" class="carousel slide welcome__right" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselId" data-slide-to="1"></li>
+          <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="carousel-layout"></div>
+            <img src="./images/b1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span>01</span>/03</h3>
+              <p>Agriculuture</p>
+            </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/b4.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3><span>03</span>/03</h3>
-            <p>Organic Farm</p>
+          <div class="carousel-item">
+            <div class="carousel-layout"></div>
+            <img src="./images/b8.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span>02</span>/03</h3>
+              <p>Farm Field</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-layout"></div>
+            <img src="./images/b4.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span>03</span>/03</h3>
+              <p>Organic Farm</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </section>
-
+  <section class="product">
+    <div class="container">
+      <div class="product__content">
+        <div class="product__left col-6">
+          <h4>Grow Naturally</h4>
+          <h3>Leaders in the field</h3>
+          <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus
+            consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa
+            velit efficitur, dolor eget ex fermentum.
+          </p>
+          <button class="btn-more">DISCOVER MORE</button>
+        </div>
+        <div class="product__right col-6">
+          <div class="product__item">
+            <img src="./images/img4.png" alt="">
+            <h4>Natural Products</h4>
+          </div>
+          <div class="product__item">
+            <img src="./images/img2.png" alt="">
+            <h4>Wheat Cultivation</h4>
+          </div>
+          <div class="product__item">
+            <img src="./images/img1.png" alt="">
+            <h4>Modern Truck</h4>
+          </div>
+          <div class="product__item">
+            <img src="./images/img3.png" alt="">
+            <h4>Organic Products</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Hoang anh -->
   <section class="footer">
     <div class="footer-main py-4">
@@ -197,6 +240,7 @@
     crossorigin="anonymous"></script>
   <!-- js hoanganh -->
   <script src="./js/main.js"></script>
+  <script src="./js/doanh.js"></script>
   <!-- back to top js của codyhouse -->
   <script src=".js/until.js"></script>
 </body>
