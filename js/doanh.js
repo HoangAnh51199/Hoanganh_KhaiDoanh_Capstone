@@ -1,11 +1,11 @@
 var toggleBtn = document.getElementById("toggleBtn");
 var body = document.getElementById("body");
 toggleBtn.onclick = function () {
-    if (toggleBtn.className == "fa-regular fa-sun") {
-        toggleBtn.className = "fa-regular fa-moon";
+    if (toggleBtn.className == "fa-regular fa-moon") {
+        toggleBtn.className = "fa-regular fa-sun";
         body.className = "dark";
       } else {
-        toggleBtn.className = "fa-regular fa-sun";
+        toggleBtn.className = "fa-regular fa-moon";
         body.classList.remove("dark");
 }
 }
