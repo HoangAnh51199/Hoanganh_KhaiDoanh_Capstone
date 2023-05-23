@@ -19,6 +19,11 @@
 .dark .welcome__text h3{
     color: white;
 }
+@media (max-width: 768px){
+.dark .welcome__inner {
+    background: #222222;
+}
+}
 /* product */
 .dark .product__left h3{
     color: white;

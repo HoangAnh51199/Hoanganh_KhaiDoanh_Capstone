@@ -112,7 +112,6 @@ header {
 }
 /* welcome */
 .welcome__content{
-    display:flex;
     flex-direction: row;
     align-items: center;
     height: 100vh;
@@ -124,12 +123,10 @@ header {
   border-radius: 0 0 0 15px;
 }
 .welcome__right{
-    width: 60%;
     position: relative;
-    margin-left: auto !important;
+    margin-left: auto;
 }
 .welcome__left{
-    width: 40%;
     left: 10em;
     z-index: 1;
     position: absolute;
@@ -183,6 +180,27 @@ header {
     background-color: rgba(0,0,0,0.1);
     border-radius: 10px;
 }
+@media (max-width: 1150px){
+  .welcome__left {
+      left: 5em;
+  }
+}
+@media (max-width: 991px){
+  .welcome__left {
+      left: 2em;
+  }
+  }
+@media (max-width: 768px){
+  .welcome__inner {
+      background: white;
+      padding: 3em 2em 2em 4em;
+      border-radius: 8px;
+  }
+  .welcome__left {
+    left: 0em;
+    padding: 2em;
+  }
+  }
 /* product */
 .product {
   padding: 50px;
@@ -264,7 +282,7 @@ header {
   z-index: 0;
   opacity: .14;
   font-size: 13vw;
-  top: -3 0px;
+  top: -30px;
   right: 50%;
   transform: translateX(50%);
 }
