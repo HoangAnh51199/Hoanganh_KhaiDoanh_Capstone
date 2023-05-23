@@ -48,3 +48,7 @@
  .dark .product__item .card:hover{
      box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
  }
+/* footer  Hoang anh */
+ .dark .footer-main h3 {
+    color:#fdfffc;
+ }
