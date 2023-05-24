@@ -1,54 +1,84 @@
 .dark {
-    background: #222222; 
- }
- /* header */
- .dark .headerScroll{
-     background: #222222;
- }
- .dark .headerScroll #toggleBtn, .dark .headerScroll #dropDown, .dark .headerScroll .navbar-brand{
-     color: white !important;
- }
- .dark .navbar-brand:hover span,.dark .navbar-brand:hover i{
-     color:#fdfffc;
- }
- /* welcome */
- .dark .welcome__left h2{
-     color:#0b0d0e;
-     opacity: 1;
- }
- .dark .welcome__text h3{
-     color: white;
- }
- @media (max-width: 768px){
- .dark .welcome__inner {
-     background: #222222;
- }
- }
- /* product */
- .dark .product__left h3{
-     color: white;
- }
- .dark .product__item .card {
-     box-shadow: 0 1rem 3rem #1a1818;
-     background-color: #222222;
- }
- .dark .product__item .card-title{
-     color:#fdfffc;
- }
- /* service */
- .dark .service .card h3{
-     color: #fdfffc;
- }
- .dark .service .card-text{
-     color: #b7b7b7;
- }
- .dark .service .card-body {
-     background: #222222;
- }
- .dark .product__item .card:hover{
-     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
- }
-/* footer  Hoang anh */
- .dark .footer-main h3 {
-    color:#fdfffc;
- }
+  background: #222222;
+}
+/* header */
+.dark .headerScroll {
+  background: #222222;
+}
+.dark .headerScroll #toggleBtn,
+.dark .headerScroll #dropDown,
+.dark .headerScroll .navbar-brand {
+  color: white !important;
+}
+.dark .navbar-brand:hover span,
+.dark .navbar-brand:hover i {
+  color: #fdfffc;
+}
+/* welcome */
+.dark .welcome__left h2 {
+  color: #0b0d0e;
+  opacity: 1;
+}
+.dark .welcome__text h3 {
+  color: white;
+}
+@media (max-width: 768px) {
+  .dark .welcome__inner {
+    background: #222222;
+  }
+}
+/* product */
+.dark .product__left h3 {
+  color: white;
+}
+.dark .product__item .card {
+  box-shadow: 0 1rem 3rem #1a1818;
+  background-color: #222222;
+}
+.dark .product__item .card-title {
+  color: #fdfffc;
+}
+/* service */
+.dark .service .card h3 {
+  color: #fdfffc;
+}
+.dark .service .card-text {
+  color: #b7b7b7;
+}
+.dark .service .card-body {
+  background: #222222;
+}
+.dark .product__item .card:hover {
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+}
+
+/* Hoanganh dark */
+.dark .reason h3,
+.dark .reason p,
+.dark .reason h4 {
+  color: white;
+}
+.dark .reason-info .item {
+    border-radius: 20px;
+    border: 2px solid #b7b7b7;
+}
+
+.dark .quality-content h4,
+.dark .quality-content p {
+    color: white;
+}
+.dark .gallery_effect h3 ,
+.dark .gallery_effect p {
+color: white;
+}
+.dark .quality a {
+    background: #1a1818;
+}
+.dark .quality-item:hover {
+    background-color: #222222;
+} 
+
+/* footer Hoang anh */
+.dark .footer-main h3 {
+  color: #fdfffc;
+}
