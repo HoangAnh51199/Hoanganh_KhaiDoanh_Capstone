@@ -309,6 +309,10 @@ header {
   margin: 15px 0;
   transition: all 0.5s;
 }
+.service .card a{
+  text-decoration: none;
+  color: #060606;
+}
 .service .card-text {
   color: #707070;
 }
