@@ -82,11 +82,11 @@
   color: #fdfffc;
 }
 
-.FooterSubscribe .subscribe input[type="email"] {
+.dark .FooterSubscribe .subscribe input[type="email"] {
   background: #0b0d0e;
 }
 
-.footer-main a.logo:hover {
+.dark .footer-main a.logo:hover {
   color: white;
   text-decoration: none;
 }
