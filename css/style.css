@@ -482,8 +482,7 @@ header {
   left: 125%;
 }
 
-.gallery_link {
-}
+
 
 .gallery_link .text-gallery {
   position: absolute;
@@ -497,6 +496,10 @@ header {
   left: 0;
   right: 0;
   margin: 20px;
+}
+.gallery .col-xl-3 {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* customer */
