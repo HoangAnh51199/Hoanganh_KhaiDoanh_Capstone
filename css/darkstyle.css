@@ -59,26 +59,34 @@
   color: white;
 }
 .dark .reason-info .item {
-    border-radius: 20px;
-    border: 2px solid #b7b7b7;
 }
 
 .dark .quality-content h4,
 .dark .quality-content p {
-    color: white;
+  color: white;
 }
-.dark .gallery_effect h3 ,
+.dark .gallery_effect h3,
 .dark .gallery_effect p {
-color: white;
+  color: white;
 }
 .dark .quality a {
-    background: #1a1818;
+  box-shadow: 0 1rem 3rem #1a1818;
+  background-color: #222222;
 }
 .dark .quality-item:hover {
-    background-color: #222222;
-} 
+  background-color: #222222;
+}
 
 /* footer Hoang anh */
 .dark .footer-main h3 {
   color: #fdfffc;
+}
+
+.dark .FooterSubscribe .subscribe input[type="email"] {
+  background: #0b0d0e;
+}
+
+.dark .footer-main a.logo:hover {
+  color: white;
+  text-decoration: none;
 }
