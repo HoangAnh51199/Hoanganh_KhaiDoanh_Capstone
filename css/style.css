@@ -750,6 +750,7 @@ outline: none;
   box-shadow: -4px 4px 24px -10px #009f4d;
   visibility: hidden;
   opacity: 0;
+  z-index: 1;
 }
 .backToTop i {
   font-size: smaller;
